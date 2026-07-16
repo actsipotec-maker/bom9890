@@ -119,17 +119,17 @@
             transform: translateX(26px);
         }
 
-        /* --- CSS สำหรับเครดิตผู้พัฒนา (อัปเดตใหม่ตามภาพ) --- */
+        /* --- CSS สำหรับเครดิตผู้พัฒนา --- */
         .developer-credit {
             text-align: center;
-            margin-top: 35px; /* ระยะห่างจากสวิตช์ตัวสุดท้าย */
+            margin-top: 35px;
             font-size: 13px;
-            line-height: 1.8; /* ระยะห่างระหว่างบรรทัด */
-            color: #8a8b96; /* สีเทาสำหรับชื่อและแผนก */
+            line-height: 1.8;
+            color: #8a8b96;
         }
 
         .developer-credit .credit-title {
-            color: #00ffff; /* สีฟ้าสว่างสำหรับคำว่า ผู้พัฒนาระบบ */
+            color: #00ffff;
             font-weight: bold;
             font-size: 15px;
             margin-bottom: 5px;
@@ -192,10 +192,10 @@
             </label>
         </div>
 
-        <!-- 👇 ส่วนแสดงเครดิตผู้พัฒนา (เพิ่มชื่อของคุณแล้ว) 👇 -->
+        <!-- 👇 ส่วนแสดงเครดิตผู้พัฒนา (แก้ไขชื่อแล้ว) 👇 -->
         <div class="developer-credit">
             <div class="credit-title">ผู้พัฒนาระบบ</div>
-            <div>นาย ปฐมพร นาดี</div>
+            <div>นายนฤสรณ์ วรเชษฐ</div>
             <div>แผนกอิเล็กทรอนิกส์</div>
             <div>วิทยาลัยสารพัดช่างศรีสะเกษ</div>
         </div>
@@ -208,7 +208,7 @@
         import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
         import { getDatabase, ref, set, onValue } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-database.js";
 
-        // ⚠️ อย่าลืมนำค่า Firebase Config ของคุณมาใส่ตรงนี้เหมือนเดิมนะครับ ⚠️
+        // ⚠️ อย่าลืมนำค่า Firebase Config ของคุณมาใส่ตรงนี้นะครับ ⚠️
         const firebaseConfig = {
             apiKey: "YOUR_API_KEY",
             authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
