@@ -192,14 +192,13 @@
             </label>
         </div>
 
-        <!-- 👇 ส่วนแสดงเครดิตผู้พัฒนา (แก้ไขชื่อแล้ว) 👇 -->
+        <!-- ส่วนแสดงเครดิตผู้พัฒนา (แก้ไขข้อมูลตามคำขอแล้ว) -->
         <div class="developer-credit">
             <div class="credit-title">ผู้พัฒนาระบบ</div>
-            <div>นายนฤสรณ์ วรเชษฐ</div>
+            <div>นาย นฤสรณ์ วรเชษฐ</div>
             <div>แผนกอิเล็กทรอนิกส์</div>
             <div>วิทยาลัยสารพัดช่างศรีสะเกษ</div>
         </div>
-        <!-- 👆 สิ้นสุดส่วนเครดิตผู้พัฒนา 👆 -->
 
     </div>
 
@@ -208,7 +207,7 @@
         import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
         import { getDatabase, ref, set, onValue } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-database.js";
 
-        // ⚠️ อย่าลืมนำค่า Firebase Config ของคุณมาใส่ตรงนี้นะครับ ⚠️
+        // ⚠️ อย่าลืมนำค่า Firebase Config ของโปรเจกต์คุณมาใส่ตรงนี้ก่อนเริ่มใช้งาน ⚠️
         const firebaseConfig = {
             apiKey: "YOUR_API_KEY",
             authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
